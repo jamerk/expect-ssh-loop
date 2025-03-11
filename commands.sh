@@ -18,7 +18,7 @@ expect "*assword*" {send "$pass\r"}
 log_file "log_$logdate.log"
 # Then we also make it clear where each device connection begins in the log.
 send_log "\n"
-send_log ">>>>>> Connected to $i <<<<<<"
+send_log ">>>>>> Connected to $h <<<<<<"
 
 # You are logged in at this point so this next portion is
 # where you can setup your commands you want to run.
